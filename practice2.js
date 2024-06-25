@@ -1,8 +1,8 @@
-let x = 3;
+let x = 5;
 let y = 5;
 
-if (5 > 3) {
-  alert("5 is greater than 3");
+if (x > y) {
+  alert(x + " is greater than " + y);
 } else {
-  alert("3 is greater than 4");
+  alert(y + " is greater than " + x);
 }

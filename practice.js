@@ -1,5 +1,5 @@
 let country = "Pakistan";
 let province = "Punjab";
 let city = "Lahore";
-let output = "lahore," + "punjab" + " " + "is" + " " + "in" + " " + "pakistan";
+let output = city + "," + province + " is in " + country;
 alert(output);
