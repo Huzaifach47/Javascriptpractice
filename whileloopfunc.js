@@ -9,38 +9,48 @@
 
 // console.log(century(x));
 
-let x = 2;
-function even(x) {
-  while (x <= 10) {
-    console.log(x);
-    x += 2;
+function even(evenValue) {
+  let firstValue = 2;
+  while (firstValue <= evenValue) {
+    console.log(firstValue);
+    firstValue += 2;
   }
 }
-console.log(even(x));
+console.log(even(44));
 
-let a = 1;
-function odd(a) {
-  while (a <= 11) {
-    console.log(a);
-    a += 2;
+function evenex(evenExculsiveValue) {
+  let secondValue = 2;
+  while (secondValue < evenExculsiveValue) {
+    console.log(secondValue);
+    secondValue += 2;
   }
 }
-console.log(odd(a));
+console.log(evenex(10));
 
-let m = 2;
-function evenexculsive(m) {
-  while (m < 10) {
-    console.log(m);
-    m += 2;
+function odd(oddValue) {
+  let numberOne = 1;
+  while (numberOne <= oddValue) {
+    console.log(numberOne);
+    numberOne += 2;
   }
 }
-console.log(evenexculsive(m));
+console.log(odd(33));
 
-let c = 1;
-function oddexculsive(c) {
-  while (c < 11) {
-    console.log(c);
-    c += 2;
+function oddex(oddExculsiveValue) {
+  let numberTwo = 1;
+  while (numberTwo < oddExculsiveValue) {
+    console.log(numberTwo);
+    numberTwo += 2;
   }
 }
-console.log(`${oddexculsive(c)} 11, exclusive`);
+console.log(`${oddex(17)} 11, exclusive`);
+
+function printAllEvenNumbersUpto(maxNumber, inclusiveOrExclusive) {
+  if (inclusiveOrExclusive === "i") {
+    console.log(evenex(maxNumber));
+  } else if (inclusiveOrExclusive === "e") {
+    console.log(evenex(maxNumber));
+  }
+}
+
+console.log(printAllEvenNumbersUpto(20, "i"));
