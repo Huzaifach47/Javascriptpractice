@@ -11,6 +11,8 @@
 // }
 // console.log(finalOutput);
 
+// ******REVERSE RIGHTANGLE TRIANGLE*****
+
 let star = "*";
 let steric = "#";
 let starOutput = "";
@@ -23,6 +25,9 @@ for (let k = 5; k >= 1; k--) {
   finalOutput = finalOutput + "\n";
 }
 console.log(finalOutput);
+
+// ******Even AND ODD LINES*****
+
 // for (let j = 1; j <= 10; j++) {
 //   for (let i = 1; i <= 6; i++) {
 //     if (j % 2 == 1) {
@@ -34,14 +39,3 @@ console.log(finalOutput);
 //   finalOutput = finalOutput + "\n";
 // }
 // console.log(finalOutput);
-
-// let star = "******";
-// let steric = "######";
-
-// let finalOutput = "";
-
-// for (let j = 1; j <= 10; j++) {
-
-//   finalOutput = star + "\n" + steric;
-//   console.log(finalOutput);
-// }
